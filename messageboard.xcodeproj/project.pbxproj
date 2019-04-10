@@ -14,6 +14,14 @@
 		ED80DE78225D9669000FB7F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED80DE76225D9669000FB7F8 /* LaunchScreen.storyboard */; };
 		ED80DE83225D966A000FB7F8 /* messageboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DE82225D966A000FB7F8 /* messageboardTests.swift */; };
 		ED80DE8E225D966A000FB7F8 /* messageboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DE8D225D966A000FB7F8 /* messageboardUITests.swift */; };
+		ED80DE9E225D9895000FB7F8 /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DE9D225D9895000FB7F8 /* BaseRepository.swift */; };
+		ED80DEA6225D98E7000FB7F8 /* RepositoryMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DEA5225D98E7000FB7F8 /* RepositoryMessage.swift */; };
+		ED80DEA9225D98F4000FB7F8 /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DEA7225D98F4000FB7F8 /* MessageEntity.swift */; };
+		ED80DEAA225D98F4000FB7F8 /* UsecaseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DEA8225D98F4000FB7F8 /* UsecaseMessage.swift */; };
+		ED80DEAC225D9900000FB7F8 /* RepositoryAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DEAB225D9900000FB7F8 /* RepositoryAccount.swift */; };
+		ED80DEAF225D9908000FB7F8 /* AccountEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DEAD225D9908000FB7F8 /* AccountEntity.swift */; };
+		ED80DEB0225D9908000FB7F8 /* UsercaseAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DEAE225D9908000FB7F8 /* UsercaseAccount.swift */; };
+		F2F92EDAD6E23FA26F714267 /* Pods_messageboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A420AFED9DBEE0B569D1AD /* Pods_messageboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19565B6BA3C203C8E3442247 /* Pods-messageboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageboard.debug.xcconfig"; path = "Target Support Files/Pods-messageboard/Pods-messageboard.debug.xcconfig"; sourceTree = "<group>"; };
+		32A420AFED9DBEE0B569D1AD /* Pods_messageboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_messageboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B773398D14AD9FA81095E67E /* Pods-messageboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageboard.release.xcconfig"; path = "Target Support Files/Pods-messageboard/Pods-messageboard.release.xcconfig"; sourceTree = "<group>"; };
 		ED80DE6A225D9669000FB7F8 /* messageboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messageboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED80DE6D225D9669000FB7F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED80DE6F225D9669000FB7F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		ED80DE89225D966A000FB7F8 /* messageboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = messageboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED80DE8D225D966A000FB7F8 /* messageboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageboardUITests.swift; sourceTree = "<group>"; };
 		ED80DE8F225D966A000FB7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED80DE9D225D9895000FB7F8 /* BaseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
+		ED80DEA5225D98E7000FB7F8 /* RepositoryMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryMessage.swift; sourceTree = "<group>"; };
+		ED80DEA7225D98F4000FB7F8 /* MessageEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
+		ED80DEA8225D98F4000FB7F8 /* UsecaseMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsecaseMessage.swift; sourceTree = "<group>"; };
+		ED80DEAB225D9900000FB7F8 /* RepositoryAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryAccount.swift; sourceTree = "<group>"; };
+		ED80DEAD225D9908000FB7F8 /* AccountEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountEntity.swift; sourceTree = "<group>"; };
+		ED80DEAE225D9908000FB7F8 /* UsercaseAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsercaseAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F92EDAD6E23FA26F714267 /* Pods_messageboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A4801A0229D8E58F903EFC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19565B6BA3C203C8E3442247 /* Pods-messageboard.debug.xcconfig */,
+				B773398D14AD9FA81095E67E /* Pods-messageboard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89339787A6FC9C54B0150972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32A420AFED9DBEE0B569D1AD /* Pods_messageboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED80DE61225D9669000FB7F8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				ED80DE81225D966A000FB7F8 /* messageboardTests */,
 				ED80DE8C225D966A000FB7F8 /* messageboardUITests */,
 				ED80DE6B225D9669000FB7F8 /* Products */,
+				2A4801A0229D8E58F903EFC1 /* Pods */,
+				89339787A6FC9C54B0150972 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +135,9 @@
 		ED80DE6C225D9669000FB7F8 /* messageboard */ = {
 			isa = PBXGroup;
 			children = (
+				ED80DEA2225D98CC000FB7F8 /* account */,
+				ED80DE9F225D98A3000FB7F8 /* message */,
+				ED80DE9B225D9880000FB7F8 /* common */,
 				ED80DE6D225D9669000FB7F8 /* AppDelegate.swift */,
 				ED80DE6F225D9669000FB7F8 /* ViewController.swift */,
 				ED80DE71225D9669000FB7F8 /* Main.storyboard */,
@@ -125,6 +166,74 @@
 			path = messageboardUITests;
 			sourceTree = "<group>";
 		};
+		ED80DE9B225D9880000FB7F8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DE9C225D9888000FB7F8 /* infra */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		ED80DE9C225D9888000FB7F8 /* infra */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DE9D225D9895000FB7F8 /* BaseRepository.swift */,
+			);
+			path = infra;
+			sourceTree = "<group>";
+		};
+		ED80DE9F225D98A3000FB7F8 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DEA1225D98C2000FB7F8 /* domain */,
+				ED80DEA0225D98BC000FB7F8 /* infra */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		ED80DEA0225D98BC000FB7F8 /* infra */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DEA5225D98E7000FB7F8 /* RepositoryMessage.swift */,
+			);
+			path = infra;
+			sourceTree = "<group>";
+		};
+		ED80DEA1225D98C2000FB7F8 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DEA7225D98F4000FB7F8 /* MessageEntity.swift */,
+				ED80DEA8225D98F4000FB7F8 /* UsecaseMessage.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		ED80DEA2225D98CC000FB7F8 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DEA4225D98D9000FB7F8 /* infra */,
+				ED80DEA3225D98D2000FB7F8 /* domain */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		ED80DEA3225D98D2000FB7F8 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DEAD225D9908000FB7F8 /* AccountEntity.swift */,
+				ED80DEAE225D9908000FB7F8 /* UsercaseAccount.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		ED80DEA4225D98D9000FB7F8 /* infra */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DEAB225D9900000FB7F8 /* RepositoryAccount.swift */,
+			);
+			path = infra;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED80DE92225D966A000FB7F8 /* Build configuration list for PBXNativeTarget "messageboard" */;
 			buildPhases = (
+				5A21CCDF585087FEF79F39B4 /* [CP] Check Pods Manifest.lock */,
 				ED80DE66225D9669000FB7F8 /* Sources */,
 				ED80DE67225D9669000FB7F8 /* Frameworks */,
 				ED80DE68225D9669000FB7F8 /* Resources */,
+				43301A57DD4A9F4FB41AA86D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +362,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43301A57DD4A9F4FB41AA86D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-messageboard/Pods-messageboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HydraAsync/Hydra.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hydra.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-messageboard/Pods-messageboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A21CCDF585087FEF79F39B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-messageboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED80DE66225D9669000FB7F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED80DEAF225D9908000FB7F8 /* AccountEntity.swift in Sources */,
+				ED80DEB0225D9908000FB7F8 /* UsercaseAccount.swift in Sources */,
+				ED80DEAC225D9900000FB7F8 /* RepositoryAccount.swift in Sources */,
+				ED80DE9E225D9895000FB7F8 /* BaseRepository.swift in Sources */,
+				ED80DEA9225D98F4000FB7F8 /* MessageEntity.swift in Sources */,
 				ED80DE70225D9669000FB7F8 /* ViewController.swift in Sources */,
+				ED80DEAA225D98F4000FB7F8 /* UsecaseMessage.swift in Sources */,
 				ED80DE6E225D9669000FB7F8 /* AppDelegate.swift in Sources */,
+				ED80DEA6225D98E7000FB7F8 /* RepositoryMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +601,7 @@
 		};
 		ED80DE93225D966A000FB7F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19565B6BA3C203C8E3442247 /* Pods-messageboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +619,7 @@
 		};
 		ED80DE94225D966A000FB7F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B773398D14AD9FA81095E67E /* Pods-messageboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

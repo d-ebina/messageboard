@@ -1,0 +1,30 @@
+PODS:
+  - HydraAsync (2.0.0)
+  - Realm (3.14.0):
+    - Realm/Headers (= 3.14.0)
+  - Realm/Headers (3.14.0)
+  - RealmSwift (3.14.0):
+    - Realm (= 3.14.0)
+  - Swinject (2.0.0)
+
+DEPENDENCIES:
+  - HydraAsync
+  - RealmSwift
+  - Swinject (~> 2.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HydraAsync
+    - Realm
+    - RealmSwift
+    - Swinject
+
+SPEC CHECKSUMS:
+  HydraAsync: bdb2fc2342dd7b74b5cd5fc919ef39d4e41fa46f
+  Realm: 221b25919bb5a010a3c597d707f8df3492dcd93a
+  RealmSwift: 28f22dfa6a27b9a778cfb09471558b6afcf1022c
+  Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
+
+PODFILE CHECKSUM: ab28d7b64dd09f75c7ad49c8d138f967c6e4320a
+
+COCOAPODS: 1.6.1
