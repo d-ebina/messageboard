@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import Swinject
+let container = Container()
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        container.register(UsercaseAccount.self) { _ in UsercaseAccountImpl() }
+        container.register(UsecaseMessage.self) { _ in UsecaseMessageImpl() }
+        container.register(RepositoryAccount.self) { _ in RepositoryAccountImpl() }
+        container.register(RepositoryMessage.self) { _ in RepositoryMessageImpl() }
         return true
     }
 
